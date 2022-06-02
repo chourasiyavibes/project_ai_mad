@@ -22,6 +22,7 @@ import java.util.Random;
 import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
+    int d = 0;
     SharedPreferences sharedPreferences;
     int matchCounter=0;
     int []performance={-1,-1,-1,-1,-1,-1}; //score of a game is updated in this array
